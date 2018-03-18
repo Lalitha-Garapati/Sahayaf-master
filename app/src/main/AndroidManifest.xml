@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.sahaya1">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sahayaicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".HomePage"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Books"
+            android:label="Books"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Clothes"
+            android:label="Clothes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Food"
+            android:label="Food"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeAppliances"
+            android:label="Home Appliances"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Others"
+            android:label="Others"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookDetails"
+            android:label="Book Donation Details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FoodDetails"
+            android:label="Food Donation Details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ClothesDetails"
+            android:label="Clothes Donation Details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeAppDetails"
+            android:label="Home Appliances Donation Details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OthersDetails"
+            android:label="Others Donation Details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FoodPostDetails"
+            android:label="Donation Details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeappPostDetails"
+            android:label="Donation Details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OthersPostDetails"
+            android:label="Donation Details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookPostDetails"
+            android:label="Donation Details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ClothesPostDetails"
+            android:label="Donation Details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignUpActivity"
+            android:label="Registration"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".MyPosts"
+            android:label="My Posts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CategorySelection"
+            android:label="Make a Donation"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDWO-_RmTH9kyzE4ZkbhAx-K_3LHGT_GUg" />
+
+        <activity
+            android:name=".Profile"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".UpdateUserDetails"></activity>
+    </application>
+
+</manifest>

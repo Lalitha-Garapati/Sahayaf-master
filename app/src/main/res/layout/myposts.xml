@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="55dp">
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/spinner"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:entries="@array/spinner_values_my_posts"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+    </Spinner>
+
+    <ListView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_view"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:dividerHeight="10dp"
+        android:layout_below="@+id/spinner">
+
+    </ListView>
+</RelativeLayout>

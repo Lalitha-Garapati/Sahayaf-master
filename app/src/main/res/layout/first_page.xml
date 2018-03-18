@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView_home"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="68dp"
+        android:paddingLeft="12dp"
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/text_view_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView_home"
+        android:layout_centerHorizontal="true"
+        android:text="We rise by lifting others"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Click to make post"
+        android:background="#004d40"
+        android:textColor="#fff"
+        android:textSize="14dp"
+        android:id="@+id/btn_make_post"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/text_view_home"/>
+
+    <ImageView
+        android:id="@+id/vishnu"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_make_post"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:src="@drawable/vishnu"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

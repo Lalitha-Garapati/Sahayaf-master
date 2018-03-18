@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#6d6d6d"
+        android:weightSum="3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/record_id"
+                android:text="ID"
+                android:textSize="0dp"
+                android:textColor="#fff"
+                android:paddingLeft="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gender_text"
+                android:text="Gender : "
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:paddingTop="3dp"
+                android:layout_below="@+id/item_name_text"
+                android:paddingLeft="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gender_type"
+                android:paddingTop="3dp"
+                android:text="Gender Value"
+                android:layout_below="@+id/item_name"
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:paddingLeft="5dp"
+                android:layout_toRightOf="@+id/gender_text"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:text="Age Group: "
+                android:layout_below="@+id/gender_text"
+                android:textSize="18dp"
+                android:id="@+id/age_group_text"
+                android:textColor="#fff"
+                android:paddingLeft="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/age_group"
+                android:paddingTop="3dp"
+                android:text="Agegroup Value"
+                android:layout_below="@+id/gender_type"
+                android:layout_toRightOf="@+id/age_group_text"
+                android:textSize="18dp"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="3dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/address_text"
+                android:layout_below="@+id/age_group_text"
+                android:text="Address : "
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:paddingLeft="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:id="@+id/address_location"
+                android:layout_below="@+id/age_group"
+                android:layout_toRightOf="@+id/address_text"
+                android:text="Address Value"
+                android:textSize="18dp"
+                android:textColor="#fff" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_weight="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:gravity="center"
+            android:visibility="gone"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

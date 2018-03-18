@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#6d6d6d"
+        android:weightSum="3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/record_id"
+                android:text="ID"
+                android:textSize="0dp"
+                android:textColor="#fff"
+                android:paddingLeft="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/item_name_text"
+                android:text="Item Name : "
+                android:textSize="18dp"
+                android:paddingTop="10dp"
+                android:textColor="#fff"
+                android:paddingLeft="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/item_name"
+                android:paddingTop="10dp"
+                android:layout_toRightOf="@+id/item_name_text"
+                android:text="Item Name Value"
+                android:textSize="18dp"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quantity : "
+                android:paddingTop="3dp"
+                android:layout_below="@+id/item_name_text"
+                android:textSize="18dp"
+                android:id="@+id/quantity_text"
+                android:textColor="#fff"
+                android:paddingLeft="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_name"
+                android:id="@+id/quantity_number"
+                android:paddingTop="3dp"
+                android:paddingRight="5dp"
+                android:text="Quantity Value"
+                android:layout_toRightOf="@+id/quantity_text"
+                android:textSize="18dp"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/quantity_units"
+                android:layout_below="@+id/item_name"
+                android:text="Quantity Units"
+                android:layout_toRightOf="@+id/quantity_number"
+                android:textSize="18dp"
+                android:paddingTop="3dp"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:id="@+id/address_text"
+                android:layout_below="@+id/quantity_text"
+                android:text="Address : "
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:paddingLeft="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/address_location"
+                android:paddingTop="3dp"
+                android:layout_below="@+id/quantity_number"
+                android:layout_toRightOf="@+id/address_text"
+                android:text="Address Value"
+                android:textSize="18dp"
+                android:textColor="#fff" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_weight="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:gravity="center"
+            android:visibility="gone"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
