@@ -55,19 +55,36 @@
             android:hint="City"
             android:paddingTop="20dp"/>
 
-        <EditText android:id="@+id/address_district"
+        <Spinner
+            android:id="@+id/address_state"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:ems="100"
+            android:entries="@array/States"/>
+
+        <Spinner
+            android:id="@+id/address_district"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:ems="100"
+            />
+
+        <!--<EditText android:id="@+id/address_district"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textCapWords"
             android:hint="District"
-            android:paddingTop="20dp"/>
+            android:paddingTop="20dp"
+            />-->
 
-        <EditText android:id="@+id/address_state"
+       <!-- <EditText android:id="@+id/address_state"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textCapWords"
             android:hint="State"
-            android:paddingTop="20dp"/>
+            android:paddingTop="20dp"/>-->
 
         <android.support.v7.widget.AppCompatButton
             android:id="@+id/btn_signup"

@@ -40,6 +40,70 @@
         <item>Others</item>
     </string-array>
 
+    <string-array name="States">
+        <item>----Select State----</item>
+        <item>Andaman and Nicobar</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarph</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jarkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Lakshadweep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharastra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Puducherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttra Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+    </string-array>
+
+    <string-array name="Andhra">
+        <item>----Select District----</item>
+        <item>Ananthapur</item>
+        <item>Chittoor</item>
+        <item>East Godavari</item>
+        <item>Guntur</item>
+        <item>Kadapa</item>
+        <item>Krishna</item>
+        <item>Kurnool</item>
+        <item>Prakash</item>
+        <item>Nellore</item>
+        <item>Srikakulam</item>
+        <item>Vishakapatnam</item>
+        <item>Vizianagaram</item>
+        <item>West Godavari</item>
+    </string-array>
+
+    <string-array name="Andaman">
+        <item>----Select District----</item>
+        <item>Nicobar</item>
+        <item>North and Middle Andaman</item>
+        <item>South Andaman</item>
+    </string-array>
+
     <string-array name="age_group_array">
         <item>---Select Age Group---</item>
         <item>0 - 5</item>
